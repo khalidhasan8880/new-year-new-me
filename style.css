@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+/* common styles */
+main{
+    margin: 0 100px;
+}
+.small-margin{
+
+}
+.big-margin{
+
+}
+
+/* google icon styles */
+.material-symbols-outlined {
+    color: chartreuse;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 40,
+  
+}
+
+/* header style start */
+header{
+    height: 800px;
+    width: 100%;
+    background-image: url('images/banner/banner1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+.banner{
+    width: 40%;
+    margin-right: 100px;
+}
+/* header style end */
+
+/* fist blog style start */
+.first-blog > div{
+    width: 500px;
+}
+.blog-img{
+    width: 100%;
+}
+.first-blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.blog-check-list {
+    list-style: none;
+    position: relative;
+    right: 41px;
+    font-size: larger;
+   
+}
+
+.blog-check-list li{
+    margin: 11px;
+    
+}
+
+
+/* start plan section style */
+
+.plan-section{
+    text-align: center;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+}
+.plan{
+    border: 1px solid rebeccapurple;
+}
