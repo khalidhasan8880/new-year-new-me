@@ -9,20 +9,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Work+Sans&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div class="banner">
-            <h2 class="margin">All Thinks Are
+            <h2 class="big-margin banner-title">All Thinks Are
                 Possible If You
                 believe
             </h2>
-            <p class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil facere deleniti voluptates!
+            <p class="big-margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil facere deleniti voluptates!
                 Autem facilis in assumenda recusandae, dignissimos ipsa! Minus, tempore?
                 acere deleniti voluptates! Autem facilis in assumenda recusandae
             </p>
-            <button class="margin">Contact Me</button>
+            <button class="big-margin primary-btn">Contact Me</button>
         </div>
     </header>
 
@@ -32,14 +37,15 @@
 
     <main>
         <section class="first-blog">
-            <div>
+            <div class="common-width">
                 <img class="blog-img" src="images/person.png" alt="">
             </div>
-            <div>
-                <h2>My failures of previous year</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aut commodi veritatis soluta totam,
-                    ullam quidem quod, pariatur repudiandae maxime omnis temporibus!</p>
-                <ul class="blog-check-list">
+            <div class="common-width">
+                <h2 class="big-margin large-text">My failures of previous year</h2>
+                <p class="small-margin small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aut commodi veritatis soluta
+                    totam,ullam quidem quod, pariatur repudiandae maxime omnis temporibus!</p>
+
+                <ul class="blog-check-list big-margin small-text">
                     <li><span class="material-symbols-outlined">check</span>Contrary to popular.</li>
                     <li><span class="material-symbols-outlined">check</span>Contrary to popular belief.</li>
                     <li><span class="material-symbols-outlined">check</span>Contrary to popular belief.</li>
@@ -50,28 +56,75 @@
         </section>
 
         <section class="plan-section">
-            <h2>My Plan</h2>
-            <div class="plans">
+            <h2 class="big-margin large-text">My Plan</h2>
+            <div class="plans big-margin">
                 <div class="plan">
-                    <span class="material-symbols-outlined">check</span>
-                    <h4>I want to start</h4>
-                    <p>I want to start</p>
+                    <img class="big-margin" src="images/icons/ecom.png" alt="">
+                    <h4>Ecommers website</h4>
+                    <p class="small-text">I want to start</p>
                 </div>
                 <div class="plan">
-                    <h4>I want to start</h4>
-                    <p>I want to start</p>
+                    <img class="big-margin" src="images/icons/smoke.png" alt="">
+                    <h4>Smoke</h4>
+                    <p class="small-text"> Egula khai na</p>
                 </div>
                 <div class="plan">
-                    <h4>I want to start</h4>
-                    <p>I want to start</p>
+                    <img class="big-margin" src="images/icons/web.png" alt="">
+                    <h4>web deve</h4>
+                    <p class="small-text">I want to be a developer</p>
                 </div>
                 <div class="plan">
+                    <img class="big-margin" src="images/icons/js.png" alt="">
                     <h4>I want to start</h4>
-                    <p>I want to start</p>
+                    <p class="small-text">I want to start</p>
                 </div>
             </div>
         </section>
 
+
+        <section class="table-section">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Name</th>
+                        <th>Education</th>
+                        <th>Income per month</th>
+                        <th>Consume</th>
+                    </tr>
+                    <tr>
+                        <td>Khalid Hasan</td>
+                        <td>Diploma last semester</td>
+                        <td>00</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <td>Monir Hasan</td>
+                        <td>HSC</td>
+                        <td>00</td>
+                        <td>6000</td>
+                    </tr>
+                    <tr>
+                        <td>Saim</td>
+                        <td>JSC</td>
+                        <td>14000</td>
+                        <td>4000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+        <section class="blend-section">
+            <div class="linear-gradient">
+                <div>
+                    <h2 class="large-text big-margin">Awlays keep a positive mindset</h2>
+                    <button class="opposite-btn">Call Me</button>
+                </div>
+            </div>
+        </section>
+
+        
     </main>
 
 
@@ -83,7 +136,21 @@
 
 
     <footer>
-
+        <div class="common-width">
+            <h2 class="big-margin large-text">Future</h2>
+            <p class="small-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in some form, by injected humour, or randomised words</p>
+            <h6 class="small-text big-margin">Email : khalidhasan8880@gmail.com</h6>
+            <h6 class="small-text big-margin">Phone : 01619167602</h6>
+            <img src="images/icons/fb.png" alt="">
+            <img src="images/icons/youtube.png" alt="">
+            <img src="images/icons/twitter.png" alt="">
+        </div>
+        <div class="common-width">
+            <h4 class="big-margin large-text">Subscribe</h4>
+            <input class="big-margin" type="email" placeholder="email" name="" id="">
+            <button class="small-margin primary-btn">Subscribe</button>
+        </div>
     </footer>
 </body>
 
