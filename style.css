@@ -100,8 +100,6 @@ header {
 
 }
 
-
-
 /* fist blog style start */
 
 .blog-img {
@@ -113,7 +111,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .blog-check-list {
     list-style: none;
@@ -140,6 +137,7 @@ header {
 
 
 /* linear gradient style start */
+
 .blend-section {
     display: flex;
     justify-content: center;
@@ -162,6 +160,7 @@ header {
 }
 
 /* table styles */
+
 .table-section {
     display: flex;
     justify-content: center;
